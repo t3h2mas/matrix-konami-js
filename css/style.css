@@ -1,0 +1,35 @@
+/*basic reset*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*adding a black bg to the body to make things clearer*/
+
+body {
+  background: black;
+}
+
+canvas {
+  display: block;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  border-style: inset;
+  border-color: white;
+  border-width: 5px;
+}
+
+.msg {
+  padding: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 3.5em;
+  color: #0F0
+}
